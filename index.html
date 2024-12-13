@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LG-실습중</title>
+    <link href="css/style.css" type="text/css"  rel="stylesheet">
+    <!--bx슬라이더 css 파일 링크-->
+    <link href="css/jquery.bxslider.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+  
+   <!--제이쿼리 JS 파일 링크-->
+   <script src="js/jquery-3.6.0.min.js" type="text/javascript"></script>
+   <!--제이쿼리 bx슬라이더 JS 파일 링크-->
+   <script src="js/jquery.bxslider.js" type="text/javascript"></script>
+   
+   <!--bx슬라이더 함수 호출-->
+   <script>
+    $(function() {
+        /*.slide_gallery라는 클래스를 가진 영역에서 bxSlider(이미지 슬라이드) 함수를 호출하겠다*/
+        $('.slide_gallery').bxSlider({
+            auto: true,
+            autoControls: false,
+            pager: true,
+            speed: 1000,
+            pause: 4000,
+            mode: 'fade'
+        });
+    });
+    </script>
+   <!--bx슬라이더 함수 끝-->
+   
+    <!--헤더 시작-->
+    <div class="header">
+        <div class="big_inner_box">
+            <div class="logo">
+                <a href="#"><img src="img/logo.jpg" alt="로고"></a>
+            </div>
+            <ul class="r_menu">
+                <li><a href="#">KOR <img src="img/ic01.jpg" alt=""></a></li>
+                <li><a href="#"><img src="img/link_ic.jpg" alt=""></a></li>
+                <li class="hambuger_btn"><img src="img/mo_ic.png" alt=""></li>
+                <div class="clear"></div>
+            </ul>
+            <ul class="menu">
+                <li><a href="#" Onclick="alert('버튼을 눌렀습니다.');">LG소개</a></li>
+                <li><a href="#">미디어</a></li>
+                <li><a href="#">CSR</a></li>
+                <li><a href="#">IR</a></li>
+                <li><a href="#">채용</a></li>
+                <div class="clear"></div>
+            </ul>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <!--헤더 끝-->
+    
+    <!--콘텐츠 영역 시작-->
+    
+    <!--메인 이미지 영역 시작-->
+    <div class="main_img">
+        <div class="big_inner_box">
+            <ul class="slide_gallery">
+                <li><img src="img/main_img.jpg" alt="메인이미지01"></li>
+                <li><img src="img/main_img02.jpg" alt="메인이미지02"></li>
+                <li><img src="img/main_img03.jpg" alt="메인이미지03"></li>
+            </ul>
+        </div>
+    </div>
+    <!--메인 이미지 영역 끝-->
+    
+    <!--콘텐츠 01 박스 시작-->
+    <div class="main_con_box01">
+        <div class="inner_box">
+            <h1><span>미디어</span></h1>
+            <!--콘텐츠 01_1 박스 시작-->
+            <div class="con_box01_1">
+                <div class="con_box01_1_1"><img src="img/con01_1.jpg" alt="퀵배너01"></div>
+                <div class="con_box01_1_2"><img src="img/con01_2.jpg" alt="퀵배너02"></div>
+                <div class="clear"></div>
+            </div>
+            <!--콘텐츠 01_1 박스 끝-->
+            
+            <!--콘텐츠 01_2 박스 시작-->
+            <div class="con_box01_2">
+                <div class="box01_2_left">
+                    <img src="img/con01_3.jpg" alt="퀵배너03">
+                    <h3>LG트윈스</h3>
+                    <p>LG트윈스, '2021 랜선 러브 기빙 데이' 개최</p>
+                </div>
+                <div class="box01_2_left mo_mar-right-0">
+                    <img src="img/con01_4.jpg" alt="퀵배너04">
+                    <h3>LG전자</h3>
+                    <p>LG 올레드 에보(OLED evo), 오브제컬렉션</p>
+                </div>
+                <div class="box01_2_left">
+                    <img src="img/con01_5.jpg" alt="퀵배너05">
+                    <h3>LG디스플레이</h3>
+                    <p>LG디스플레이-연세대학교, 차세대 디스플레이 융합</p>
+                </div>
+                <div class="box01_2_right">
+                    <img src="img/con01_6.jpg" alt="퀵배너06">
+                    <h3>팜한농</h3>
+                    <p>구미시와 신물질 '테라도'투자협약 체결</p>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <!--콘텐츠 01_2 박스 끝-->
+        </div>
+    </div>
+    <!--콘텐츠 01 박스 끝-->
+    
+    <!--콘텐츠 02 박스 시작-->
+    <div class="main_con_box02">
+        <div class="inner_box">
+            <h1><span>CSR</span></h1>
+            <p class="h1_sub_txt">LG는 기억과 사회, 환경이 공존할 수 있도록 지속적으로 사회적 책임을 실천하고 있습니다.</p>
+            <div class="con_box02_1">
+                <div class="box02_1_left">
+                    <img src="img/con02_1.jpg" alt="퀵배너02_1">
+                </div>
+                <div class="box02_1_left mo_mar-right-0">
+                    <img src="img/con02_2.jpg" alt="퀵배너02_2">
+                </div>
+                <div class="box02_1_left">
+                    <img src="img/con02_3.jpg" alt="퀵배너02_3">
+                </div>
+                <div class="box02_1_right">
+                    <img src="img/con02_4.jpg" alt="퀵배너02_4">
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+    <!--콘텐츠 02 박스 끝-->
+    
+    <!--콘텐츠 03 박스 시작-->
+    <div class="main_con_box03">
+        <div class="inner_box">
+            <h1><span>바로가기</span></h1>
+            <!--콘텐츠 03_1 박스 시작-->
+            <div class="con_box03_1">
+                <div class="con_box03_1_left">
+                    <img src="img/con03_1.jpg" alt="퀵배너03_1">
+                </div>
+                <div class="con_box03_1_right">
+                    <div class="box03_1_right_l">
+                        <img src="img/con03_2.jpg" alt="퀵배너03_2">
+                    </div>
+                    <div class="box03_1_right_r">
+                        <img src="img/con03_3.jpg" alt="퀵배너03_3">
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <!--콘텐츠 03_1 박스 끝-->
+            <!--콘텐츠 03_2 박스 시작-->
+            <div class="con_box03_2">
+                <div class="con_box03_2_right">
+                    <img src="img/con03_6.jpg" alt="퀵배너03_6">
+                </div>
+                <div class="con_box03_2_left">
+                    <div class="box03_2_left_l">
+                        <img src="img/con03_4.jpg" alt="퀵배너03_4">
+                    </div>
+                    <div class="box03_2_left_r">
+                        <img src="img/con03_5.jpg" alt="퀵배너03_5">
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <!--콘텐츠 03_1 박스 끝-->
+        </div>
+    </div>
+    <!--콘텐츠 03 박스 끝-->
+    <!--콘텐츠 영역 끝-->
+    
+    <!-- footer시작-->
+    <div class="footer">
+        <div class="inner_box">
+            <div class="footer_left">
+                <img src="img/footer_logo.jpg" alt="로고">
+            </div>
+            <div class="footer_center">
+                <ul class="f_center_box01">
+                    <li><a href="#">사이트맵</a></li>
+                    <li><a href="#">고객문의</a></li>
+                    <div class="clear"></div>
+                </ul>
+                <div class="f_center_box02">
+                    ⓒ LG커뮤니케이션센터, S&amp;I 코퍼레이션
+                </div>
+            </div>
+            <div class="footer_right">
+                <img src="img/footer_ic.jpg" alt="아이콘">
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <!-- footer끝-->
+    
+    
+<script>
+
+$(function () {
+    // 초기 메뉴 숨기기
+    $(".menu").hide();
+
+    // 햄버거 버튼 클릭 이벤트
+    $(".hambuger_btn").on("click", function () {
+        $(".menu").slideToggle(500, "swing");
+    });
+
+    // 화면 리사이즈 시 메뉴 상태 업데이트
+    $(window).on("resize", function () {
+        var win_w = $(window).width();
+        if (win_w >= 960) {
+            $(".menu").show(); // 960px 이상일 경우 메뉴 표시
+        } else {
+            $(".menu").hide(); // 960px 미만일 경우 숨김
+        }
+    }).trigger("resize"); // 페이지 로드 시 강제 트리거
+});
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
